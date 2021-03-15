@@ -36,7 +36,7 @@ function playSound(key) {
   }
 
   if (sound) {
-    var audio = new Audio('sounds/' + sound);
+    var audio = new Audio(sound);
     audio.play();
   }
 }
